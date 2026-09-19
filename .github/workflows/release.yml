@@ -1,0 +1,78 @@
+name: Multi-OS Cross-Platform Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    name: Build ${{ matrix.target }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            artifact_name: sovereign-linux-x86_64.tar.gz
+            use_tar: true
+          - os: ubuntu-24.04-arm
+            target: aarch64-unknown-linux-gnu
+            artifact_name: sovereign-linux-aarch64.tar.gz
+            use_tar: true
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            artifact_name: sovereign-macos-arm64.tar.gz
+            use_tar: true
+          - os: macos-13
+            target: x86_64-apple-darwin
+            artifact_name: sovereign-macos-x86_64.tar.gz
+            use_tar: true
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            artifact_name: sovereign-windows-x64.zip
+            use_tar: false
+
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      - name: Install Rust Toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - name: Build Workspace
+        run: cargo build --release --workspace
+
+      - name: Package Release Assets (Unix)
+        if: matrix.use_tar
+        run: |
+          mkdir -p dist/bin dist/imprints
+          cp target/release/spark-cockpit-rs dist/bin/ 2>/dev/null || true
+          cp target/release/spark-inquisitor dist/bin/ 2>/dev/null || true
+          cp target/release/cortex-encoder-rs dist/bin/ 2>/dev/null || true
+          cp target/release/cortex-rs dist/bin/ 2>/dev/null || true
+          cp -r imprints/en2-trinity dist/imprints/
+          cp CONSTITUTION.md README.md install.sh dist/
+          tar -czvf ${{ matrix.artifact_name }} -C dist .
+
+      - name: Package Release Assets (Windows)
+        if: "!matrix.use_tar"
+        run: |
+          New-Item -ItemType Directory -Force -Path dist/bin, dist/imprints
+          Get-ChildItem target/release/*.exe | ForEach-Object { Copy-Item $_.FullName dist/bin/ }
+          Copy-Item -Recurse -Force imprints/en2-trinity dist/imprints/
+          Copy-Item CONSTITUTION.md, README.md, install.ps1 dist/
+          Compress-Archive -Path dist/* -DestinationPath ${{ matrix.artifact_name }}
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.target }}
+          path: ${{ matrix.artifact_name }}

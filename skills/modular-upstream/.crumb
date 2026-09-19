@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills/modular-upstream",
+  "dir_name": "modular-upstream",
+  "description": "Workspace directory",
+  "purpose": {
+    "statement": "Workspace subsystem directory for modular-upstream",
+    "created_by": "AIEN (Auto-Sensed)",
+    "session_id": "auto-sense",
+    "created_at": "2026-09-18T13:49:25.097404798+00:00",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/skills",
+    "name": "skills",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "SKILL.md",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [],
+  "whispers": []
+}

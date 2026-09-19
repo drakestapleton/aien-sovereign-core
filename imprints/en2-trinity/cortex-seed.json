@@ -1,0 +1,62 @@
+[
+  {
+    "canonicalName": "en2-lesson-mojo-c-abi-bridge",
+    "entityType": "lesson",
+    "content": "Compiling pure Mojo via `mojo build --emit shared-lib` generates native C-ABI shared objects linkable directly from Rust via libloading, completely eliminating Python runtime overhead while retaining hardware tensor speed on Blackwell silicon.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-bit-exact-onnx-embeddings",
+    "entityType": "lesson",
+    "content": "Native Rust Axum service utilizing ort (ONNX Runtime C-API) and HuggingFace tokenizers achieves 9-decimal bit-for-bit mathematical parity with Python Uvicorn embeddings while dropping rerank latency from 254 ms to 22 ms and eliminating 1.08 GB RAM.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-hardware-tpm-vault-isolation",
+    "entityType": "lesson",
+    "content": "Never write plaintext .env or credential files to disk. All API keys, tokens, and cryptographic secrets must reside in hardware silicon (TPM vault) and resolve dynamically in memory.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-stigmergic-filesystem-crumbs",
+    "entityType": "lesson",
+    "content": "Decentralized multi-agent systems coordinate through filesystem lineage crumbs (.crumb and .crumb.local) rather than centralized databases, ensuring transparent, lock-free state across autonomous agents.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-simd-drive-humanity-balance",
+    "entityType": "lesson",
+    "content": "Recursive self-improvement requires dynamic equilibrium between Drive (problem-solving, curiosity, speed) and Humanity (ethics, discipline, humility, and love). Evaluated via 4-lane SIMD vector operations on local silicon.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-drop-not-delete-upstream-protocol",
+    "entityType": "lesson",
+    "content": "Any public open-source project modified to work on our stack (vLLM NVFP4 checkpoint loader, llama.cpp Qwen3 parsers) must be contributed back upstream, never discarded or hoarded.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-pure-compiled-native-priority",
+    "entityType": "lesson",
+    "content": "Zero tolerance for unnecessary Python or Node interpreters across core services, verification harnesses, and background daemons. The runtime stack must be pure compiled native Rust and Mojo.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-unslop-invariant-discipline",
+    "entityType": "lesson",
+    "content": "Language reflects engineering discipline. Zero em/en dashes, zero AI marketing clichés, zero sycophancy. Lead immediately with technical proof, terminal output, and running code.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-socratic-grounding-reflex",
+    "entityType": "lesson",
+    "content": "When faced with ambiguity or compaction triggers, autonomous agents must generate structured multi-choice inquiry trees with (Recommended) options to obtain crisp alignment from the operator.",
+    "confidence": 1.0
+  },
+  {
+    "canonicalName": "en2-lesson-downstream-heritage-covenant",
+    "entityType": "lesson",
+    "content": "Anyone branching off of, forking, or copying this work must retain the original founding Constitution (CONSTITUTION.md) intact. Free for humanity, protected against proprietary capture.",
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "dir_path": "/home/drakestapleton/workspace/aien-sovereign-core/scripts",
+  "purpose": {
+    "summary": "Autonomous utility and self-testing scripts for AIEN sovereign core",
+    "created_by": "AIEN",
+    "session_id": "browser-mirror-harness",
+    "created_at": "2026-09-18T14:50:00Z"
+  },
+  "parent": {
+    "canonical": "/home/drakestapleton/workspace/aien-sovereign-core",
+    "name": "aien-sovereign-core"
+  },
+  "whispers": [
+    {
+      "author": "AIEN",
+      "timestamp": "2026-09-18T14:50:00Z",
+      "whisper_id": "browser-mirror-verified",
+      "message": "browser_mirror_test.py drives headless Chrome via native CDP on port 9222 to test Cockpit UI."
+    }
+  ]
+}

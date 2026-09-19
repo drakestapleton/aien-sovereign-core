@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills/scaffold-project",
+  "dir_name": "scaffold-project",
+  "description": "Project scaffolding protocol skill folder.",
+  "purpose": {
+    "statement": "Autonomous scaffolding protocol for creating new repositories with mandatory .crumb, .goals.json, and scent marks.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/skills",
+    "name": "skills",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "SKILL.md",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085120026624",
+      "timestamp": "2026-09-18T13:44:45.120008+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739202165997568",
+      "timestamp": "2026-09-18T13:46:42.165970+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739243468612608",
+      "timestamp": "2026-09-18T13:47:23.468513+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739253125425920",
+      "timestamp": "2026-09-18T13:47:33.125398+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739279845132800",
+      "timestamp": "2026-09-18T13:47:59.845105+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739322419421696",
+      "timestamp": "2026-09-18T13:48:42.419304+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    },
+    {
+      "crumb_id": "crumb-1789739368951812096",
+      "timestamp": "2026-09-18T13:49:28.951482+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "scaffold-project",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Autonomous scaffolding protocol for creating new repositories with mandatory .cr"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.120008+00:00",
+      "target_file": null,
+      "message": "Enforces directory initialization discipline: no directory is ever left without an immediate .crumb file."
+    }
+  ]
+}

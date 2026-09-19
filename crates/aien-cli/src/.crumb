@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/aien-cli/src",
+  "dir_name": "src",
+  "description": "Workspace directory",
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/aien-cli",
+    "name": "aien-cli",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "client.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "commands.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "crumbs.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "hive.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "main.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "nesting.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "safety.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "telemetry.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "tools.rs",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "ui.rs",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789730194362541784",
+      "timestamp": "2026-09-18T11:16:34.362543144+00:00",
+      "agent_id": "AIEN",
+      "session_id": "active-session",
+      "action": "view",
+      "target": "main.rs",
+      "intent": "Inspected file lines",
+      "vector": ""
+    }
+  ],
+  "whispers": []
+}

@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/aien-cli",
+  "dir_name": "aien-cli",
+  "description": "AIEN CLI codebase.",
+  "purpose": {
+    "statement": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, AgentHooks, and ContextCompactor.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton",
+    "name": "drakestapleton",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "Cargo.lock",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "Cargo.toml",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "src",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "target",
+      "item_type": "dir",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789730125635721335",
+      "timestamp": "2026-09-18T11:15:25.635726743+00:00",
+      "agent_id": "AIEN",
+      "session_id": "manual-nest",
+      "action": "signin",
+      "target": "aien-cli",
+      "intent": "Operator session initiation",
+      "vector": "Awaiting operator command"
+    },
+    {
+      "crumb_id": "bubble-1789730194362672809",
+      "timestamp": "2026-09-18T11:16:34.362673433+00:00",
+      "agent_id": "AIEN",
+      "session_id": "active-session",
+      "action": "sub:view",
+      "target": "src/main.rs",
+      "intent": "Inspected file lines",
+      "vector": ""
+    },
+    {
+      "crumb_id": "crumb-1789730292940501169",
+      "timestamp": "2026-09-18T11:18:12.940502545+00:00",
+      "agent_id": "AIEN",
+      "session_id": "active-session",
+      "action": "view",
+      "target": "Cargo.toml",
+      "intent": "Inspected file lines",
+      "vector": ""
+    },
+    {
+      "crumb_id": "crumb-1789739085119245824",
+      "timestamp": "2026-09-18T13:44:45.119003+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739202165484800",
+      "timestamp": "2026-09-18T13:46:42.165357+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739243464446720",
+      "timestamp": "2026-09-18T13:47:23.464325+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739253124949760",
+      "timestamp": "2026-09-18T13:47:33.124901+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739279844649216",
+      "timestamp": "2026-09-18T13:47:59.844591+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739322418227456",
+      "timestamp": "2026-09-18T13:48:42.418115+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    },
+    {
+      "crumb_id": "crumb-1789739368948821504",
+      "timestamp": "2026-09-18T13:49:28.948497+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "aien-cli",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Native ARM64 Rust CLI tool for AIEN. Implements nesting ritual, SafetyEngine, Ag"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.119003+00:00",
+      "target_file": null,
+      "message": "Engineered on Spark. Release binary symlinked to ~/.local/bin/aien. Direct MAX inference client, zero python runtime overhead."
+    }
+  ]
+}

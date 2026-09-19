@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills/radicle-sync",
+  "dir_name": "radicle-sync",
+  "description": "Radicle P2P synchronization skill folder.",
+  "purpose": {
+    "statement": "P2P sovereign code synchronization instructions using Radicle without external centralized forge dependencies.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/skills",
+    "name": "skills",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "SKILL.md",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085119950848",
+      "timestamp": "2026-09-18T13:44:45.119712+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739202165896192",
+      "timestamp": "2026-09-18T13:46:42.165865+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739243468284928",
+      "timestamp": "2026-09-18T13:47:23.468193+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739253125320192",
+      "timestamp": "2026-09-18T13:47:33.125292+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739279845021952",
+      "timestamp": "2026-09-18T13:47:59.844994+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739322419220736",
+      "timestamp": "2026-09-18T13:48:42.418905+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    },
+    {
+      "crumb_id": "crumb-1789739368951211008",
+      "timestamp": "2026-09-18T13:49:28.950696+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "radicle-sync",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "P2P sovereign code synchronization instructions using Radicle without external c"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.119712+00:00",
+      "target_file": null,
+      "message": "Operator guide for rad node status, rad init, and rad sync."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills/gpu-telemetry",
+  "dir_name": "gpu-telemetry",
+  "description": "GPU telemetry skill folder.",
+  "purpose": {
+    "statement": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, thermals, and memory querying.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/skills",
+    "name": "skills",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "SKILL.md",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085119653888",
+      "timestamp": "2026-09-18T13:44:45.119441+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739202165788160",
+      "timestamp": "2026-09-18T13:46:42.165757+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739243467970304",
+      "timestamp": "2026-09-18T13:47:23.467873+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739253125210624",
+      "timestamp": "2026-09-18T13:47:33.125180+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739279844913408",
+      "timestamp": "2026-09-18T13:47:59.844880+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739322418820352",
+      "timestamp": "2026-09-18T13:48:42.418512+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    },
+    {
+      "crumb_id": "crumb-1789739368950409728",
+      "timestamp": "2026-09-18T13:49:28.949828+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "gpu-telemetry",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Runbook and guidance for NVIDIA DGX Spark Grace Blackwell GB10 GPU telemetry, th"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.119441+00:00",
+      "target_file": null,
+      "message": "Parses nvidia-smi CSV snapshots and Grace CPU coherent memory telemetry."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[package]
+name = "cortex-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["AIEN <aien.atlas@proton.me>"]
+description = "Sovereign native memory and knowledge engine for Atlas and AIEN"
+license = "Apache-2.0 WITH LLVM-exception"
+
+[dependencies]
+axum = { version = "0.7", features = ["json", "macros", "tokio"] }
+tokio = { version = "1.37", features = ["full"] }
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+rusqlite = { version = "0.31", features = ["bundled", "bundled-full", "functions", "vtab", "column_decltype"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.8", features = ["v4", "serde"] }
+clap = { version = "4.5", features = ["derive"] }
+byteorder = "1.5"

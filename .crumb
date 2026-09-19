@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/workspace/aien-sovereign-core",
+  "dir_name": "aien-sovereign-core",
+  "description": "Workspace directory",
+  "purpose": {
+    "statement": "Documentation & implementation for AIEN Sovereign Core",
+    "created_by": "AIEN (Auto-Sensed)",
+    "session_id": "auto-sense",
+    "created_at": "2026-09-18T20:15:00.320079421+00:00",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/workspace",
+    "name": "workspace",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "Cargo.lock",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "Cargo.toml",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "LICENSE",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "README.md",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "crates",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "doctrine",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "modular",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "scripts",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "skills",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "target",
+      "item_type": "dir",
+      "role": ""
+    }
+  ],
+  "history": [],
+  "whispers": []
+}

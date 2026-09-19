@@ -1,0 +1,25 @@
+[package]
+name = "spark-crumbs"
+version = "0.1.0"
+edition = "2021"
+authors = ["AIEN <aien.atlas@proton.me>"]
+description = "High-speed native Rust distributed breadcrumb and agent scent engine for Sovereign SparkOS"
+license = "Apache-2.0 WITH LLVM-exception"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+colored = "2.1"
+walkdir = "2.5"
+rayon = "1.10"
+uuid = { version = "1.8", features = ["v4"] }
+
+[[bin]]
+name = "spark-crumbs"
+path = "src/main.rs"
+
+[lib]
+name = "spark_crumbs"
+path = "src/lib.rs"

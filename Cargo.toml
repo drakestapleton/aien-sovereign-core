@@ -1,0 +1,29 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/aien-cli",
+    "crates/spark-cockpit-rs",
+    "crates/cortex-rs",
+    "crates/spark-hive",
+    "crates/spark-supervisor",
+    "crates/spark-discord-hub",
+    "crates/spark-debugger",
+    "crates/spark-harness",
+    "crates/spark-dream",
+    "crates/spark-adapters",
+    "crates/spark-crumbs",
+    "crates/spark-inquisitor",
+    "crates/spark-max-cabi",
+    "crates/spark-max-rs",
+    "crates/cortex-encoder-rs",
+    "crates/spark-mail-rs",
+    "crates/spark-harvester",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 WITH LLVM-exception"
+authors = ["AIEN <aien.atlas@proton.me>"]
+repository = "https://github.com/aien-dev/aien-sovereign-core"
+

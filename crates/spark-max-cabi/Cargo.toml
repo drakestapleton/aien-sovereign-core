@@ -1,0 +1,14 @@
+[package]
+license = "Apache-2.0 WITH LLVM-exception"
+name = "spark-max-cabi"
+version = "0.1.0"
+edition = "2021"
+authors = ["AIEN <aien.atlas@proton.me>"]
+description = "Native C-ABI FFI bindings to the Modular MAX dynamic bridge library"
+
+[dependencies]
+libloading = "0.8"
+tracing = "0.1"
+
+[dev-dependencies]
+tempfile = "3.17"

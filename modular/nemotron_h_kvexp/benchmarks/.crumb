@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "dir_path": "/home/drakestapleton/workspace/aien-sovereign-core/modular/nemotron_h_kvexp/benchmarks",
+  "purpose": {
+    "summary": "Performance and throughput micro-benchmarks for KV-head expansion on Grace Neoverse V2",
+    "created_by": "AIEN",
+    "session_id": "modular-upstream-packaging",
+    "created_at": "2026-09-18T14:26:00Z"
+  },
+  "parent": {
+    "canonical": "/home/drakestapleton/workspace/aien-sovereign-core/modular/nemotron_h_kvexp",
+    "name": "nemotron_h_kvexp"
+  },
+  "whispers": [
+    {
+      "author": "AIEN",
+      "timestamp": "2026-09-18T14:26:00Z",
+      "whisper_id": "bench-results",
+      "message": "Benchmark measured 5.49 ms per layer and 285.63 ms for full 52-layer Nemotron-30B model at 12.80 GB/s."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills",
+  "dir_name": "skills",
+  "description": "Agent skills registry directory.",
+  "purpose": {
+    "statement": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without prompt bloat.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton",
+    "name": "drakestapleton",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "gpu-telemetry",
+      "item_type": "dir",
+      "role": "GPU telemetry skill folder."
+    },
+    {
+      "name": "modular-upstream",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "radicle-sync",
+      "item_type": "dir",
+      "role": "Radicle P2P synchronization skill folder."
+    },
+    {
+      "name": "scaffold-project",
+      "item_type": "dir",
+      "role": "Project scaffolding protocol skill folder."
+    },
+    {
+      "name": "unslop",
+      "item_type": "dir",
+      "role": "Sovereign technical voice skill folder."
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085119375616",
+      "timestamp": "2026-09-18T13:44:45.119340+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739202165680896",
+      "timestamp": "2026-09-18T13:46:42.165571+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739243467629312",
+      "timestamp": "2026-09-18T13:47:23.467504+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739253125096192",
+      "timestamp": "2026-09-18T13:47:33.125046+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739279844793088",
+      "timestamp": "2026-09-18T13:47:59.844746+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739322418423296",
+      "timestamp": "2026-09-18T13:48:42.418330+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    },
+    {
+      "crumb_id": "crumb-1789739368949514752",
+      "timestamp": "2026-09-18T13:49:28.949131+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "skills",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign skill registry loaded dynamically by AIEN CLI and Cockpit UI without p"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.119340+00:00",
+      "target_file": null,
+      "message": "Contains gpu-telemetry, radicle-sync, scaffold-project, and unslop skill runbooks."
+    }
+  ]
+}

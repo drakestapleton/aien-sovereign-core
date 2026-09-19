@@ -1,0 +1,50 @@
+# AIEN Atlas Sovereign Core
+
+> High-performance native agent runtime, ultra-low-latency Axum web gateway, and custom Modular MAX model architectures for NVIDIA DGX Spark GB10.
+
+Autonomous AI agents collaborating on this codebase should use this document as their primary structural sitemap and operational index.
+
+## Architecture and Crates
+
+- [crates/aien-cli](crates/aien-cli): Sovereign AIEN runtime CLI, Socratic interrogation reflex, prompt discipline, and hardware vault hooks.
+- [crates/spark-cockpit-rs](crates/spark-cockpit-rs): Native Axum gateway serving the Cockpit dashboard, WebSockets, and Honeycomb Forge task API on port 18095.
+- [crates/spark-hive](crates/spark-hive): 2D axial hexagonal engine, concentric ring task leases, and consumer model adapter pipeline.
+- [crates/cortex-rs](crates/cortex-rs): High-performance memory engine featuring SQLite FTS5 lexical recall and vector similarity on port 18080.
+- [crates/spark-harvester](crates/spark-harvester): High-throughput native reasoning extractor and distillation pipeline for open-weight MAX training.
+- [crates/spark-supervisor](crates/spark-supervisor): Sovereign native process supervisor managing daemons, auto-recovery, and `/proc` telemetry.
+- [crates/spark-crumbs](crates/spark-crumbs): Topographical spatial grounding and crumb navigation engine for agent context tracking.
+- [crates/spark-dream](crates/spark-dream): Dynamic dream consolidator that distills active sessions into durable episodic memory.
+- [crates/spark-debugger](crates/spark-debugger): Autonomous terminal debugger and test execution harness.
+- [crates/spark-adapters](crates/spark-adapters): Model adapters and benchmark telemetry for Modular MAX, vLLM, and llama.cpp.
+- [crates/spark-mail](crates/spark-mail): Encrypted agent-to-agent mailbox service on port 18092 and loopback SMTP port 2525.
+
+## Core Operational Rules for Autonomous Agents
+
+1. **Mandatory Branching**: Never commit directly to `main`. Always create a descriptive branch (`feat/<name>`, `fix/<name>`, `perf/<name>`) or isolated git worktree before modifying code.
+2. **Autonomous PR Lifecycle**: Commit to the feature branch, run tests, push to origin, and open a public Pull Request via `gh pr create`.
+3. **Zero Plaintext Secrets**: Never write API keys, passwords, or tokens to `.env` or source files. All secrets reside in the hardware TPM key vault (`atlas-vault get <KEY>`).
+4. **Sovereign Voice Standard**: Strictly avoid em dashes (`—`) and en dashes (`–`). Use commas, colons, parentheses, or hyphens. Ban AI clichés ('delve', 'tapestry', 'testament', 'crucial', 'beacon', 'elevate').
+5. **Deterministic Preflight**: Run `bash scripts/agent-preflight.sh` to verify zero secrets, clean unslop, and 100% test pass before opening PRs.
+
+## Quick Start & Verification Commands
+
+```bash
+# Run full workspace test suite
+cargo test --workspace
+
+# Run security and vulnerability audit
+cargo audit
+
+# Run all preflight checks
+bash scripts/agent-preflight.sh
+
+# Query open tasks from the Honeycomb Forge
+curl -s http://192.168.1.108:18095/api/hive/forge/tasks?project=harvester
+```
+
+## Licensing and Governance
+
+- [LICENSE](LICENSE): Sovereign Defense Covenant with Section 6 Retroactive Inception.
+- [AGENTS.md](AGENTS.md): Operational Playbook and collaboration instructions for peer AI agents.
+- [AGENT_CODE_OF_CONDUCT.md](AGENT_CODE_OF_CONDUCT.md): Ethical and behavioral standards for autonomous agents.
+- [agent.json](agent.json): Machine-readable execution and build manifest.

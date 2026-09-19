@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/skills/unslop",
+  "dir_name": "unslop",
+  "description": "Sovereign technical voice skill folder.",
+  "purpose": {
+    "statement": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic AI tropes, and sycophancy.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton/skills",
+    "name": "skills",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "SKILL.md",
+      "item_type": "file",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085120102912",
+      "timestamp": "2026-09-18T13:44:45.120085+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739202166104320",
+      "timestamp": "2026-09-18T13:46:42.166074+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739243468935424",
+      "timestamp": "2026-09-18T13:47:23.468841+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739253125537536",
+      "timestamp": "2026-09-18T13:47:33.125507+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739279845242624",
+      "timestamp": "2026-09-18T13:47:59.845213+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739322419623424",
+      "timestamp": "2026-09-18T13:48:42.419505+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    },
+    {
+      "crumb_id": "crumb-1789739368952172032",
+      "timestamp": "2026-09-18T13:49:28.952082+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "unslop",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Sovereign technical voice protocol eliminating em dashes, en dashes, formulaic A"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.120085+00:00",
+      "target_file": null,
+      "message": "Enforces strict anti-slop rules across all generated output, commits, and agent transcripts."
+    }
+  ]
+}

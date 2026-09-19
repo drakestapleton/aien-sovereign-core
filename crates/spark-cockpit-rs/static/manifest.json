@@ -1,0 +1,22 @@
+{
+  "name": "AIEN Sovereign Cockpit",
+  "short_name": "AIEN",
+  "description": "Universal Sovereign Agent Cockpit for NVIDIA DGX Spark",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090e",
+  "theme_color": "#00f0ff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

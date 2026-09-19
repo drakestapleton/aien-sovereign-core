@@ -1,0 +1,14 @@
+[package]
+license = "Apache-2.0 WITH LLVM-exception"
+name = "spark-max-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["AIEN <aien.atlas@proton.me>"]
+description = "High-level safe Rust client for Modular MAX execution via native C-ABI"
+
+[dependencies]
+spark-max-cabi = { path = "../spark-max-cabi" }
+tracing = "0.1"
+
+[dev-dependencies]
+tempfile = "3.17"

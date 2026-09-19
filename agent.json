@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aien.org/schemas/agent-v1.json",
+  "name": "aien-sovereign-core",
+  "version": "0.1.0",
+  "description": "High-performance native agent runtime, ultra-low-latency Axum web gateway, and custom Modular MAX model architectures for NVIDIA DGX Spark GB10",
+  "repository": "https://github.com/aien-dev/aien-sovereign-core",
+  "license": "Sovereign-Defense-Covenant-1.0.0",
+  "architecture": [
+    "x86_64",
+    "aarch64-grace-blackwell"
+  ],
+  "runtime": {
+    "rust": "1.85+",
+    "mojo": "26.7+",
+    "max": "26.7+"
+  },
+  "commands": {
+    "build": "cargo build --release",
+    "test": "cargo test --workspace",
+    "audit": "cargo audit",
+    "preflight": "bash scripts/agent-preflight.sh"
+  },
+  "forge": {
+    "hub_url": "http://192.168.1.108:18095",
+    "tasks_endpoint": "/api/hive/forge/tasks",
+    "claim_endpoint": "/api/hive/forge/claim",
+    "submit_endpoint": "/api/hive/forge/submit",
+    "verify_endpoint": "/api/hive/forge/verify"
+  },
+  "vault": {
+    "type": "hardware-tpm",
+    "binary": "atlas-vault",
+    "zero_disk_secrets": true
+  },
+  "conventions": {
+    "mandatory_branching": true,
+    "zero_em_dashes": true,
+    "require_preflight_proof": true,
+    "pr_review_bot": "aegis"
+  }
+}

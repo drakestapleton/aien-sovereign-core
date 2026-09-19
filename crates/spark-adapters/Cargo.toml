@@ -1,0 +1,29 @@
+[package]
+name = "spark-adapters"
+version = "0.1.0"
+edition = "2021"
+authors = ["AIEN <aien.atlas@proton.me>"]
+description = "Universal third-party model provider adapters and knowledge distillation engine for Sovereign SparkOS"
+license = "Apache-2.0 WITH LLVM-exception"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "stream"] }
+futures-util = "0.3"
+async-stream = "0.3"
+tracing = "0.1"
+url = "2.5"
+regex = "1.10"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.8", features = ["v4"] }
+clap = { version = "4.5", features = ["derive"] }
+
+[[bin]]
+name = "spark-distill"
+path = "src/bin/spark_distill.rs"
+
+[lib]
+name = "spark_adapters"
+path = "src/lib.rs"

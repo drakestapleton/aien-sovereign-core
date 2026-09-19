@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "dir_path": "/home/drakestapleton/spark-cockpit-rs",
+  "dir_name": "spark-cockpit-rs",
+  "description": "Native Axum web cockpit gateway.",
+  "purpose": {
+    "statement": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Universal Sovereign Cockpit.",
+    "created_by": "operator",
+    "lifecycle": "permanent"
+  },
+  "above": {
+    "path": "..",
+    "canonical": "/home/drakestapleton",
+    "name": "drakestapleton",
+    "role": "Parent directory context"
+  },
+  "below": [
+    {
+      "name": "Cargo.lock",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "Cargo.toml",
+      "item_type": "file",
+      "role": ""
+    },
+    {
+      "name": "src",
+      "item_type": "dir",
+      "role": ""
+    },
+    {
+      "name": "target",
+      "item_type": "dir",
+      "role": ""
+    }
+  ],
+  "history": [
+    {
+      "crumb_id": "crumb-1789739085118508544",
+      "timestamp": "2026-09-18T13:44:45.118471+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739202165282304",
+      "timestamp": "2026-09-18T13:46:42.165185+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739243464093440",
+      "timestamp": "2026-09-18T13:47:23.463976+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739253124814592",
+      "timestamp": "2026-09-18T13:47:33.124764+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739279844503808",
+      "timestamp": "2026-09-18T13:47:59.844452+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739322418024704",
+      "timestamp": "2026-09-18T13:48:42.417740+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    },
+    {
+      "crumb_id": "crumb-1789739368948215552",
+      "timestamp": "2026-09-18T13:49:28.947673+00:00",
+      "agent_id": "Atlas-Prime",
+      "session_id": "seed-knowledge-init",
+      "action": "seed:knowledge",
+      "target": "spark-cockpit-rs",
+      "intent": "Contextual Knowledge Grounding",
+      "vector": "Ultra-fast standalone native Rust Axum web gateway (port 18095) for the AIEN Uni"
+    }
+  ],
+  "whispers": [
+    {
+      "from_agent": "Atlas-Prime",
+      "timestamp": "2026-09-18T13:44:45.118471+00:00",
+      "target_file": null,
+      "message": "Replaced Python server.py. Consumes only 4.7 MB RSS, sub-millisecond TTFB, handles streaming SSE with unslop & vault filters."
+    }
+  ]
+}
