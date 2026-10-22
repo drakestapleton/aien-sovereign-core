@@ -1,5 +1,9 @@
 # AIEN Sovereign Core
 
+## How it works and how to reproduce
+
+I trace one actual source or design boundary in [the worked lesson](docs/TEACHING.md), with a pinned fresh-checkout exercise and [raw replay receipt](docs/teaching-replay-2026-10-22.txt). The lesson states what remains unimplemented or unverified at this revision.
+
 [![License](https://img.shields.io/badge/License-SRCL--1.0-blue.svg)](LICENSE)
 [![Target](https://img.shields.io/badge/Target-Multi--Platform%20%7C%20Apple%20Silicon%20%7C%20Linux%20%7C%20NVIDIA-76B900.svg)](https://github.com/aien-dev/benchmarks)
 [![Rust](https://img.shields.io/badge/Rust-1.85+-orange.svg)](https://www.rust-lang.org)
@@ -21,7 +25,7 @@ Review our full ethical and technical charter in [CONSTITUTION.md](CONSTITUTION.
 
 ---
 
-## Verified Performance Benchmarks
+## Historical performance records (verify each cited run)
 
 AIEN eliminates interpreter overhead by compiling all core services directly to native machine code.
 
@@ -79,17 +83,9 @@ Downstream developers and commercial users are governed exclusively by the terms
 
 ---
 
-## Quick Start: Universal 1-Line Installer
+## Historical installer record
 
-### Linux & macOS (Apple Silicon / Intel)
-```bash
-curl -fsSL https://raw.githubusercontent.com/aien-dev/aien-sovereign-core/main/install.sh | bash
-```
-
-### Windows (PowerShell)
-```powershell
-iwr -useb https://raw.githubusercontent.com/aien-dev/aien-sovereign-core/main/install.ps1 | iex
-```
+The old Linux/macOS and Windows installer commands have been removed from this front page. They are not the supported current runtime route. Inspect this pinned tree's [install.sh](install.sh) and [install.ps1](install.ps1) as historical source only; use the active [runtime repository](https://github.com/aien-dev/aien-sovereign-core-mv) for its current installation and verification guidance.
 
 ---
 
