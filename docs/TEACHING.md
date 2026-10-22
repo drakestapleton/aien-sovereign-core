@@ -19,3 +19,8 @@ PYEX
 ```
 
 Expected that line, exit 0. This is a source-boundary lesson, not an inference test. A missing library is the negative branch; a true MAX model run requires pinned Modular, model weights and platform receipts, none exercised here. [Replay receipt](teaching-replay-2026-10-22.txt).
+
+
+### Parent fresh-checkout replay
+
+A separate coordination replay is retained in [the parent receipt](parent-replay-2026-10-22.txt). Its scope and observed exit are explicit; source review and final desk qualification remain separate. A recorded absence or expected failing baseline is not a passing implementation.

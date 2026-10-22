@@ -1,0 +1,22 @@
+2026-10-22 parent coordination replay
+Repository: drakestapleton/aien-sovereign-core
+Exact executable source: 99f704b7af7a34ed7220d9678eae9b79e422f970
+Observed exit: 0; expected by the documented bounded recipe: 0
+Scope: MAX/fallback source inspected; model execution not replayed
+
+This is a separate fresh temporary checkout, not reuse of the author build directory. Git objects may be shared as immutable source storage; compiled outputs were not copied. The original author receipt is preserved. This replay is not a fresh-context source review, full repository suite, protected-branch admission, live service check, security audit or physical-hardware qualification. The website's nonzero baseline is a retained FAIL, not a passing product build. Missing implementation inspections remain absence checks, not executed features.
+Host: macOS26.6.2 arm64; Git2.50.1, Python3.9.6, Node22.18.0, AppleClang17.0.0, jq1.7.1, uv0.7.3; only tools used by this recipe matter. OpenSSL signature recipe explicitly selected OpenSSL3.6.3 rather than system LibreSSL3.3.6. The browser route used Playwright1.60.0 / Chrome155.0.8059.85.
+
+RAW OBSERVED OUTPUT:
+REPO drakestapleton/aien-sovereign-core
+SOURCE 99f704b7af7a34ed7220d9678eae9b79e422f970
+COMMAND
+python3 - <<'PYEX'
+from pathlib import Path
+s=Path('crates/spark-max-rs/src/lib.rs').read_text()
+assert 'SparkMaxBindings::global()' in s
+assert 'NativeRustFallback' in s and 'pub fn is_fallback' in s
+print('MAX AND FALLBACK BRANCHES PRESENT')
+PYEX
+RAW OUTPUT
+MAX AND FALLBACK BRANCHES PRESENT
