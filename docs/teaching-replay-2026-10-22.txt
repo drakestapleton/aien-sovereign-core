@@ -1,0 +1,28 @@
+TEACHING REPLAY 2026-10-22 UTC
+repository: drakestapleton/aien-sovereign-core
+base_sha: e983e385d22736d0e9c0b656a4be517b6ea18753
+source_sha: 99f704b7af7a34ed7220d9678eae9b79e422f970
+environment: macOS-26.6.2-arm64-arm-64bit-Mach-O; python 3.14.6
+tool_versions:
+git --version: git version 2.55.0
+node --version: v22.18.0
+jq --version: jq-1.7.1-apple
+openssl version: OpenSSL 3.6.3 9 Jun 2026 (Library: OpenSSL 3.6.3 9 Jun 2026)
+cargo --version: cargo 1.97.1 (c980f4866 2026-06-30)
+qualification: source check PASS; MAX model inference unverified
+checkout: fresh git clone --no-hardlinks --branch docs/teaching-20261022 from dedicated cohort clone
+command (from docs/TEACHING.md):
+python3 - <<'PYEX'
+from pathlib import Path
+s=Path('crates/spark-max-rs/src/lib.rs').read_text()
+assert 'SparkMaxBindings::global()' in s
+assert 'NativeRustFallback' in s and 'pub fn is_fallback' in s
+print('MAX AND FALLBACK BRANCHES PRESENT')
+PYEX
+
+stdout:
+MAX AND FALLBACK BRANCHES PRESENT
+
+stderr:
+
+exit: 0
