@@ -1,3 +1,7 @@
+<!-- github-native-navigation -->
+[Source](https://github.com/drakestapleton/aien-sovereign-core) · [Walkthrough](docs/TEACHING.md) · [Replay receipt](docs/teaching-replay-2026-10-22.txt) · [Actual tags](https://github.com/drakestapleton/aien-sovereign-core/tags)
+<!-- /github-native-navigation -->
+
 # AIEN Sovereign Core
 
 ## How it works and how to reproduce
