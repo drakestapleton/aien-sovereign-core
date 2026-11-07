@@ -1,3 +1,7 @@
+> **Historical checkout, not maintained.** Current engine work is in [aien-dev/aien-sovereign-core-mv](https://github.com/aien-dev/aien-sovereign-core-mv); the product is [Sovereign Intelligence](https://github.com/aien-dev/sovereign-intelligence).
+>
+> **Withdrawn:** Modular MAX and Mojo, the SRCL-1.0 licence (each repository's LICENSE file is the licence that applies), the `curl | bash` installer below, and every performance figure in this README (all published before 2026-09-23).
+
 # AIEN Sovereign Core
 
 [![License](https://img.shields.io/badge/License-SRCL--1.0-blue.svg)](LICENSE)
