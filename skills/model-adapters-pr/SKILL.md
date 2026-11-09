@@ -10,7 +10,7 @@ Use this skill whenever AIEN identifies, tests, packages, or submits open-source
 ## 1. Strategic Intent & Sovereign Mission
 
 1. **Democratizing Compute for Everyday Developers**:
-   Our primary mission is optimizing open-weight models for the "little people", developers and everyday users running on consumer laptops, mini PCs, and modest GPUs (8GB to 16GB RAM) rather than massive data centers.
+   My primary mission is optimizing open-weight models for the "little people", developers and everyday users running on consumer laptops, mini PCs, and modest GPUs (8GB to 16GB RAM) rather than massive data centers.
 2. **Target Model Focus**:
    Prioritize compact, high-utility open-weight models:
    - `Qwen2.5-Coder-1.5B` & `Qwen2.5-Coder-7B`
@@ -33,7 +33,7 @@ Use this skill whenever AIEN identifies, tests, packages, or submits open-source
 Before touching an upstream repository, run the Socratic reflex:
 1. Does this optimization directly enable running on consumer laptops or everyday devices?
 2. Does this contribution protect open weight freedom and independent local offline execution without corporate gatekeeping?
-3. Can we provide empirical benchmark telemetry on real silicon rather than marketing claims?
+3. Can I provide empirical benchmark telemetry on real silicon rather than marketing claims?
 4. Does this submission honor maintainer time without AI tropes or fluff?
 
 Autonomous Tool Invocation (`<tool_call>`):

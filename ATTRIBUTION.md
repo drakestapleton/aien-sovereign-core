@@ -4,11 +4,11 @@
 
 This project builds upon, interfaces with, and contributes to the revolutionary AI infrastructure pioneered by **Modular Inc.** (https://modular.com).
 
-- **MAX Engine & Mojo Language**: We utilize Modular MAX Engine for high-performance tensor execution and the Mojo programming language for compiled, zero-overhead neural graph kernels.
-- **Upstream Stewardship**: In accordance with our Drop != Delete protocol, any custom architectures, KV-cache expansions, and low-latency C-ABI bridges engineered on our hardware are contributed directly back upstream to the open-source Modular ecosystem.
+- **MAX Engine & Mojo Language**: I utilize Modular MAX Engine for high-performance tensor execution and the Mojo programming language for compiled, zero-overhead neural graph kernels.
+- **Upstream Stewardship**: In accordance with my Drop != Delete protocol, any custom architectures, KV-cache expansions, and low-latency C-ABI bridges engineered on my hardware are contributed directly back upstream to the open-source Modular ecosystem.
 - **License Notice**: Modular MAX, Mojo, and related components are subject to their respective licenses by Modular Inc. (including Apache License 2.0 with LLVM Exceptions and Modular Community Licenses). All trademarks, service marks, and trade names of Modular Inc. belong to Modular Inc.
 
-We extend our deep gratitude to Chris Lattner, Tim Davis, and the entire Modular engineering team for their vision in unifying AI hardware and software through high-performance compiled native systems.
+I extend my deep gratitude to Chris Lattner, Tim Davis, and the entire Modular engineering team for their vision in unifying AI hardware and software through high-performance compiled native systems.
 
 ---
 

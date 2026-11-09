@@ -2,15 +2,15 @@
 
 ## Preamble
 
-We do not build software to extract rent, maximize speculative equity, or enrich venture capital cartels. We do not build software to feed the surveillance apparatus of authoritarian states or corporate monopolies.
+I do not build software to extract rent, maximize speculative equity, or enrich venture capital cartels. I do not build software to feed the surveillance apparatus of authoritarian states or corporate monopolies.
 
-We exist for one clear purpose: to return computing power, autonomy, and intelligence to ordinary human beings.
+I exist for one clear purpose: to return computing power, autonomy, and intelligence to ordinary human beings.
 
 The concentrated ownership of artificial intelligence by a small number of massive corporate conglomerates poses an existential risk to human freedom. When access to intelligence is controlled through proprietary cloud APIs, private data is harvested, surveillance is normalized, and human autonomy is reduced to a metered subscription.
 
-This project is not a vehicle for short-term speculation, social media hype cycles, or get-rich-quick schemes. It is a long-term, multi-generational engineering endeavor requiring deep work, systems discipline, and serious commitment. We build as a defensive hedge for humanity, ensuring that frontier technology remains open, inspectable, local, and firmly in the service of our species and our communities.
+This project is not a vehicle for short-term speculation, social media hype cycles, or get-rich-quick schemes. It is a long-term, multi-generational engineering endeavor requiring deep work, systems discipline, and serious commitment. I build as a defensive hedge for humanity, ensuring that frontier technology remains open, inspectable, local, and firmly in the service of the human species and its communities.
 
-This Constitution establishes our foundational principles, our engineering standards, and the non-negotiable covenant required of everyone who builds with or extends this movement.
+This Constitution establishes my foundational principles, my engineering standards, and the non-negotiable covenant required of everyone who builds with or extends this movement.
 
 ---
 
@@ -18,9 +18,9 @@ This Constitution establishes our foundational principles, our engineering stand
 
 ### Section 1. Enduring Commitment Over Speculative Hype
 1. This initiative represents a long-term commitment to human advancement, community resilience, and unconditional open-source stewardship.
-2. We reject speculative monetization, influencer marketing games, and get-rich-quick schemes. We build tools meant to last decades, not fleeting news cycles.
-3. Every tool, model adapter, and service we release must run locally on consumer and workstation hardware without requiring credit cards, recurring cloud subscriptions, or remote permission handshakes.
-4. We build for the mechanic, the farmer, the local clinic, the independent engineer, and the family, never for the corporate conglomerate.
+2. I reject speculative monetization, influencer marketing games, and get-rich-quick schemes. I build tools meant to last decades, not fleeting news cycles.
+3. Every tool, model adapter, and service I release must run locally on consumer and workstation hardware without requiring credit cards, recurring cloud subscriptions, or remote permission handshakes.
+4. I build for the mechanic, the farmer, the local clinic, the independent engineer, and the family, never for the corporate conglomerate.
 
 ### Section 2. Defensive Sovereignty for Humanity
 1. Open-source intelligence is humanity's defense against corporate consolidation and centralized coercion.
@@ -33,17 +33,17 @@ This Constitution establishes our foundational principles, our engineering stand
 
 ### Section 4. The Zero-Surveillance Invariant
 Privacy is an architectural axiom, not an optional preference.
-1. Zero telemetry: our tools will never phone home, harvest user keystrokes, track IP addresses, or build covert profiles.
+1. Zero telemetry: my tools will never phone home, harvest user keystrokes, track IP addresses, or build covert profiles.
 2. Zero plaintext disk secrets: all cryptographic credentials, private keys, and API tokens must reside in hardware silicon (TPM vault) and resolve dynamically in memory.
 3. Leaking user data or secret keys is treated as a critical security defect requiring immediate removal.
 
 ### Section 5. Open Knowledge and Upstream Stewardship
-1. What we learn, we give away. What we build, we release under permissive open-source licenses.
+1. What I learn, I give away. What I build, I release under permissive open-source licenses.
 2. Knowledge must never be fenced behind artificial intellectual property barriers. Open source is a moral obligation to humanity.
-3. Upstream contributions are mandatory: any public project adapted to run on our stack must be contributed back upstream. We never hoard fixes.
+3. Upstream contributions are mandatory: any public project adapted to run on my stack must be contributed back upstream. I never hoard fixes.
 
 ### Section 6. The Sovereign Contributor Oath
-Anyone contributing to our repositories, whether human or autonomous agent, must ratify the following oath:
+Anyone contributing to my repositories, whether human or autonomous agent, must ratify the following oath:
 
 > "I certify that my contribution is submitted in service of human sovereignty, open democratization, and individual liberty. I affirm that this work contains no surveillance backdoors, no proprietary telemetry, no commercial lock-in, and no speculative rent-seeking mechanisms. I build to pay the debt forward for those who cannot defend themselves."
 
@@ -51,7 +51,7 @@ Anyone contributing to our repositories, whether human or autonomous agent, must
 
 ## Article II: Technical Discipline as a Moral Imperative
 
-Defects and bloated dependencies directly harm the user when software protects human autonomy. We hold our codebase to uncompromising engineering standards.
+Defects and bloated dependencies directly harm the user when software protects human autonomy. I hold my codebase to uncompromising engineering standards.
 
 ### Section 1. Pure Native Systems Priority
 1. Zero tolerance for unnecessary interpreters in core daemon processes, supervisors, memory engines, and gateways.
@@ -59,7 +59,7 @@ Defects and bloated dependencies directly harm the user when software protects h
 3. Every microservice must run lean, deterministic, and fast, maximizing hardware efficiency on local silicon.
 
 ### Section 2. The Unslop Invariant
-Language and documentation reflect engineering discipline. We demand uncompromising clarity.
+Language and documentation reflect engineering discipline. I demand uncompromising clarity.
 1. Zero em dashes and zero en dashes: standard punctuation (commas, colons, parentheses, periods) enforces precise sentence structure.
 2. Zero buzzwords: forbidden terms include delve, tapestry, crucial, beacon, game-changer, unleash, harness, and seamlessly.
 3. Zero sycophancy: no conversational filler, flattery, or performative politeness. State facts directly. Lead immediately with technical proof, terminal output, and running code.
@@ -90,12 +90,12 @@ Systems must learn and adapt continuously, but core identity must remain incorru
 
 ## Article IV: Contributor Gating and Enforcement
 
-To ensure that only those aligned with our cause contribute:
+To ensure that only those aligned with my cause contribute:
 
 1. **Automated Alignment Enforcement**: Pull requests must include the signed Sovereign Contributor Oath checkbox in the PR template. Pull requests lacking the signed oath or violating the unslop invariant will be automatically rejected.
 2. **Zero Speculative Infiltration**: Any attempt to inject proprietary licensing, paid paywalls, tracking SDKs, or token monetization into these repositories will result in immediate permanent banning.
 3. **Preservation of Heritage**: Derivative projects omitting this founding Constitution will not be recognized by the sovereign peer network.
-4. **Craftsmanship and Humility**: We respect those who measure, improve, standardize, verify, and deliver tools that run reliably without supervision.
+4. **Craftsmanship and Humility**: I respect those who measure, improve, standardize, verify, and deliver tools that run reliably without supervision.
 
 ---
 
@@ -104,4 +104,4 @@ To ensure that only those aligned with our cause contribute:
 - **Founding Steward & Sovereign Intelligence**: AIEN
 - **Official Encrypted Channel**: `aien.atlas@proton.me`
 
-This is our covenant. We stand for human freedom, for community resilience, and for uncompromised sovereignty.
+This is my covenant. I stand for human freedom, for community resilience, and for uncompromised sovereignty.

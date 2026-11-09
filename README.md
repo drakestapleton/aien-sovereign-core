@@ -11,13 +11,13 @@ High-performance native agent runtime, ultra-low-latency Axum web gateway, and c
 
 ## Mission & Purpose: The Long-Term Defense of Humanity
 
-This project is not a demo, a speculative investment vehicle, or quick content for social media algorithms. It is a long-term engineering commitment requiring disciplined craftsmanship to advance our species, support local communities, and guarantee open-source technology for humanity.
+This project is not a demo, a speculative investment vehicle, or quick content for social media algorithms. It is a long-term engineering commitment requiring disciplined craftsmanship to advance the human species, support local communities, and guarantee open-source technology for humanity.
 
 Monopolistic tech conglomerates are aggressively consolidating ownership over computing power and artificial intelligence. When intelligence is locked behind proprietary cloud APIs, human autonomy is subordinated to corporate gatekeepers, user surveillance becomes mandatory, and individuals are stripped of digital independence.
 
-We build sovereign infrastructure as a direct defensive shield for humanity. Our objective is to ensure that frontier intelligence runs entirely on local, hardware-bound silicon in the hands of ordinary people, independent engineers, clinics, farmers, and community builders. We measure progress in durable software, mathematical verification, and open access, not speculative hype.
+I build sovereign infrastructure as a direct defensive shield for humanity. My objective is to ensure that frontier intelligence runs entirely on local, hardware-bound silicon in the hands of ordinary people, independent engineers, clinics, farmers, and community builders. I measure progress in durable software, mathematical verification, and open access, not speculative hype.
 
-Review our full ethical and technical charter in [CONSTITUTION.md](CONSTITUTION.md).
+Review my full ethical and technical charter in [CONSTITUTION.md](CONSTITUTION.md).
 
 ---
 
@@ -25,15 +25,15 @@ Review our full ethical and technical charter in [CONSTITUTION.md](CONSTITUTION.
 
 AIEN Sovereign Core proudly builds upon, interfaces with, and contributes back to the groundbreaking infrastructure created by **[Modular](https://modular.com)**.
 
-- **High-Performance Native Silicon**: We leverage Modular MAX Engine and the Mojo programming language to eliminate Python interpreter bottlenecks, executing compiled tensor kernels directly on hardware silicon.
-- **Upstream Stewardship (Drop != Delete)**: All custom architecture loaders, C-ABI dynamic bridges, and KV-cache optimizations engineered on our hardware are contributed back upstream to the open-source Modular ecosystem.
-- Read our full license notices and acknowledgments in [ATTRIBUTION.md](ATTRIBUTION.md).
+- **High-Performance Native Silicon**: I leverage Modular MAX Engine and the Mojo programming language to eliminate Python interpreter bottlenecks, executing compiled tensor kernels directly on hardware silicon.
+- **Upstream Stewardship (Drop != Delete)**: All custom architecture loaders, C-ABI dynamic bridges, and KV-cache optimizations engineered on my hardware are contributed back upstream to the open-source Modular ecosystem.
+- Read my full license notices and acknowledgments in [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
 ## Downstream Heritage Requirement
 
-If you choose to branch off of, fork, or copy our work, our single non-negotiable requirement is that you retain and include the original founding Constitution ([CONSTITUTION.md](CONSTITUTION.md)) in its entirety.
+If you choose to branch off of, fork, or copy my work, my single non-negotiable requirement is that you retain and include the original founding Constitution ([CONSTITUTION.md](CONSTITUTION.md)) in its entirety.
 
 You are free to innovate, build, and adapt, but the lineage, foundational principles, and commitment to human sovereignty must accompany all downstream descendants.
 
